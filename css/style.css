@@ -126,7 +126,7 @@ img.svg{
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
-	background-image: url(..//img/patterns/green-dust-and-scratches.png);
+	/* background-image: url(..//img/patterns/green-dust-and-scratches.png); */
 	background-repeat: repeat;
 	z-index: 2;
 }
@@ -233,6 +233,7 @@ img.svg{
 .glax_tm_topbar_wrap .language{
 	padding-left: 60px;
 	position: relative;
+	display: none;
 }
 .glax_tm_topbar_wrap .language .selected{
 	text-decoration: none;
@@ -2021,16 +2022,21 @@ img.svg{
 	left: 50%;
     margin-left: 40px;
     top: 0px;
+	height: 100%;
     right: 0px;
     bottom: 0px;
     z-index: 5;
+	object-fit: cover;
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-	background-image: url(..//img/portfolio/10.jpg);
+	/* background-image: url(..//img/portfolio/10.jpg); */
 }
-
+.glax_tm_rating_wrap .inner .rightbox .bg_image img{
+	object-fit:fill;
+	height:100%;
+}
 /*------------------------------------------------------------------*/ 
 /*	09) GLAX PRINCIPLES
 /*------------------------------------------------------------------*/
@@ -2623,13 +2629,15 @@ img.svg{
 .glax_tm_home_blog_wrap .blog_list ul li .image_holder img{min-width: 100%;}
 .glax_tm_home_blog_wrap .blog_list ul li .main_image{
 	position: absolute;
+	width: 100%;
 	top: 0px;
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size:fit;
+	background-color: #FFF;
 }
 .glax_tm_home_blog_wrap .blog_list ul li .overlay{
 	position: absolute;
