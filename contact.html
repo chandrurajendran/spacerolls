@@ -82,8 +82,8 @@
 					<div class="share_wrap">
 						<ul>
 							<!-- <li><a href="#"><i class="xcon-facebook"></i></a></li> -->
-							<li><a href="https://www.linkedin.com/company/spacerolls/"><i class="xcon-linkedin"></i></a></li>
-							<li><a href="https://www.instagram.com/spacerolls.aero/"><i class="xcon-instagram"></i></a></li>
+							<li><a target="_blank" href="https://www.linkedin.com/company/spacerolls/"><i class="xcon-linkedin"></i></a></li>
+							<li><a target="_blank" href="https://www.instagram.com/spacerolls.aero/"><i class="xcon-instagram"></i></a></li>
 							<!-- <li><a href="#"><i class="xcon-pinterest"></i></a></li>
 																																																																																																																																																																																																				<li><a href="#"><i class="xcon-behance"></i></a></li> -->
 						</ul>
@@ -144,8 +144,8 @@
 						</div> -->
 						<div class="mobile_socials_wrap">
 							<ul>
-								<li><a href="https://www.linkedin.com/company/spacerolls/"><i class="xcon-linkedin"></i></a></li>
-								<li><a href="https://www.instagram.com/spacerolls.aero/"><i class="xcon-instagram"></i></a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/company/spacerolls/"><i class="xcon-linkedin"></i></a></li>
+								<li><a target="_blank" href="https://www.instagram.com/spacerolls.aero/"><i class="xcon-instagram"></i></a></li>
 								</ul>
 						</div>
 					</div>
@@ -277,27 +277,29 @@
 							<h3>Get in Touch With Us</h3>
 						</div>
 						<div class="inner_wrap">
-							<form action="/" method="post" class="contact_form" id="contact_form">
+							<form action="https://formspree.io/f/xjvjzldp" method="post" class="contact_form" id="contact_form">
 								<div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
 								<div class="empty_notice"><span>Please Fill Required Fields</span></div>
 								<div class="row">
 									<label>Full Name<span></span></label>
-									<input id="name" type="text" />
+									<input name="name" id="name" type="text" />
 								</div>
 								<div class="row">
 									<label>Your E-mail<span></span></label>
-									<input id="email" type="text" />
+									<input name="_replyto" type="text" />
 								</div>
 								<div class="row">
 									<label>Your Subject<span></span></label>
-									<input id="subject" type="text" />
+									<input name="subject" id="subject" type="text" />
 								</div>
 								<div class="row">
 									<label>Your Message<span></span></label>
-									<textarea id="message"></textarea>
+									<textarea name="message" id="message"></textarea>
 								</div>
 								<div class="row">
-									<a id="send_message" href="#">Send Message</a>
+									<button
+										style="background-color: #4CAF50;border: none;border-radius: 5px;color: white;padding: 1.5%;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;"
+										class="btn btn-primary" type="submit">Send</button>
 								</div>
 							</form>
 						</div>
@@ -341,20 +343,21 @@
 												<ul>
 													<li>
 														<div class="wrap">
-															<a href="https://ec.europa.eu/clima/change/consequences_en"><span class="left">Climate Change</span></a>
+															<a target="_blank" href="https://ec.europa.eu/clima/change/consequences_en"><span class="left">Climate Change</span></a>
 															<!-- <span class="right">9am to 5pm</span> -->
 														</div>
 													</li>
 													<li>
 														<div class="wrap">
-															<a href="https://www.weforum.org/agenda/2021/10/energy-transition-risks-crisis/"><span class="left">Energy
+															<a target="_blank" href="https://www.weforum.org/agenda/2021/10/energy-transition-risks-crisis/"><span
+																	class="left">Energy
 																	Transition</span></a>
 															<!-- <span class="right">10am to 3pm</span> -->
 														</div>
 													</li>
 													<li>
 														<div class="wrap">
-															<a
+															<a target="_blank"
 																href="https://www.theguardian.com/business/2021/mar/11/rolls-royce-reports-4bn-loss-as-covid-crisis-shakes-jet-engine-maker"><span
 																	class="left">Covid Crisis</span></a>
 															<!-- <span class="right">Closed</span> -->
